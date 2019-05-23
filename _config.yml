@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ten Oak
+title: Ten Oak Consulting
 title_separator: |
 name: Jonathan Boston
 email: boston@tenoakconsulting.com
 description: >- # this means to ignore newlines until "baseurl:"
   Marketing for small and medium sized businesses.
 url: https://www.tenoakconsulting.com
-twitter_username: bostonou
+twitter_username: tenoakhq
 search: true
 
 # Build settings
@@ -60,20 +60,20 @@ plugins:
 author:
   name   : "Jonathan Boston"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Marketing that's more than just advertising."
+  bio    : "I study your business to find small changes that provide significant bottom-line results."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.tenoakconsulting.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/bostonou"
+      url: "https://twitter.com/tenoakhq"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/bostonou"
+      url: "https://twitter.com/tenoakhq"
 
 defaults:
   # _posts
