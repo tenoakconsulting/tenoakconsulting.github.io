@@ -20,21 +20,13 @@ email: boston@tenoakconsulting.com
 description: >- # this means to ignore newlines until "baseurl:"
   Marketing for small and medium sized businesses.
 url: https://www.tenoakconsulting.com
-twitter_username: tenoakhq
-search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dark
 # Outputting
-permalink: /articles/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -50,51 +42,9 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
-author:
-  name   : "Jonathan Boston"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I study your business to find small changes that provide significant bottom-line results."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.tenoakconsulting.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tenoakhq"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tenoakhq"
 
 defaults:
-  # _posts
   - scope:
-      path: ""
-      type: posts
+      path: "assets/img"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
+      image: true
